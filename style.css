@@ -36,7 +36,7 @@ body {
     display: flex;
     padding: 2rem;
     width: 842px;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .box1 {
@@ -113,6 +113,61 @@ button {
     text-align: center;
 }
 
+
+.box2 {
+    background-color: hsl(183, 100%, 15%);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #fff;
+    border-radius: 20px;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stat h2 {
+    font-size: 36px;
+    color: hsl(172, 67%, 45%);
+}
+
+span {
+    font-size: 13.5px;
+}
+
+small {
+    font-size: 0.75rem;
+    color: hsl(186, 14%, 43%);
+}
+
+.resetBtn {
+    font-family: inherit;
+    border: 0;
+    padding: 0.5rem 0;
+    text-transform: uppercase;
+    color: hsl(183, 100%, 15%);
+    font-size: 1.25rem;
+    background-color: hsl(183, 96%, 22%);
+    border-radius: 4px;
+}
+
+
+@media(min-width:888px) {
+    .box2 {
+        padding: 3rem;
+    }
+}
 
 
 
