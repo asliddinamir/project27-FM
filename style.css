@@ -125,6 +125,12 @@ button {
     justify-content: space-between;
 }
 
+@media(min-width:888px) {
+    .box2 {
+        padding: 3rem;
+    }
+}
+
 .stats {
     display: flex;
     flex-direction: column;
@@ -162,28 +168,6 @@ small {
     border-radius: 4px;
 }
 
-
-@media(min-width:888px) {
-    .box2 {
-        padding: 3rem;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
     text-align: center;
     font-size: 12px;
@@ -191,4 +175,19 @@ footer {
 
 footer a {
     color: red;
+}
+
+@media(max-width:890px) {
+    .container {
+        width: 100%;
+    }
+
+    .box2 {
+        padding: 2rem 1rem;
+    }
+
+    .buttons {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 }
