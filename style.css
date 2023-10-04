@@ -81,10 +81,36 @@ input:focus {
     border: 2px solid hsl(172, 67%, 45%);
 }
 
+.input2 p {
+    margin-bottom: 1rem;
+}
+
 .buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: .7rem;
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    border: 0;
+    background-color: hsl(183, 100%, 15%);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    font-family: inherit;
+}
+
+.custom {
+    border-radius: 4px;
+    max-width: 8rem;
+    padding: .35rem .3rem;
+}
+
+button {
+    cursor: pointer;
+    max-width: 100%;
+    text-align: center;
 }
 
 
