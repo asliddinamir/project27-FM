@@ -14,9 +14,9 @@ body {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: hsl(185, 41%, 84%);
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .main_container {
@@ -189,5 +189,19 @@ footer a {
     .buttons {
         display: grid;
         grid-template-columns: auto auto;
+    }
+}
+
+@media(max-width:645px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .box1 {
+        width: 100%;
+    }
+
+    .box2 {
+        width: 100%;
     }
 }
