@@ -192,6 +192,13 @@ footer a {
     }
 }
 
+@media(min-width:646px) {
+    footer {
+        position: absolute;
+        bottom: 10px;
+    }
+}
+
 @media(max-width:645px) {
     .container {
         flex-direction: column;
@@ -203,5 +210,28 @@ footer a {
 
     .box2 {
         width: 100%;
+    }
+}
+
+
+@media(max-width:375px) {
+    body {
+        padding: 2rem 0;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .box1 {
+        padding: .5rem;
+    }
+
+    footer {
+        font-size: 8px;
+    }
+
+    .stat h2 {
+        font-size: 30px;
     }
 }
