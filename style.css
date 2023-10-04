@@ -39,6 +39,54 @@ body {
     gap: 2rem;
 }
 
+.box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 50%;
+    padding: 1.5rem;
+}
+
+.box1 p {
+    font-size: 13.6px;
+    color: hsl(186, 14%, 43%);
+    margin-bottom: .3rem;
+}
+
+.inputEl {
+    position: relative;
+}
+
+.inputEl img {
+    position: absolute;
+    top: .8rem;
+    left: 1rem;
+}
+
+input {
+    background-color: hsl(189, 41%, 97%);
+    border: 2px solid transparent;
+    color: hsl(183, 100%, 15%);
+    text-align: right;
+    padding: .5rem;
+    font-size: 1.25rem;
+    border-radius: 4px;
+    font-weight: 700;
+    font-family: inherit;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid hsl(172, 67%, 45%);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .7rem;
+}
+
 
 
 
