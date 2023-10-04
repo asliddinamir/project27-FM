@@ -104,18 +104,15 @@ button {
     border-radius: 4px;
     font-size: 1.25rem;
     font-family: inherit;
+    cursor: pointer;
+    max-width: 100%;
+    text-align: center;
 }
 
 .custom {
     border-radius: 4px;
     max-width: 8rem;
     padding: .35rem .3rem;
-}
-
-button {
-    cursor: pointer;
-    max-width: 100%;
-    text-align: center;
 }
 
 
@@ -162,7 +159,7 @@ small {
     color: hsl(186, 14%, 43%);
 }
 
-.resetBtn {
+#resetBtn {
     font-family: inherit;
     border: 0;
     padding: 0.5rem 0;
